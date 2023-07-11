@@ -10,10 +10,21 @@
       display: block;
       margin: 20px auto;
     }
+    #welcomeMessage {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
-  <h1>Tetris</h1>
+  <h1>Tetris by Jamie </h1>
+  <div id="welcomeMessage">
+    <h2>Welcome to the easiest Tetris!</h2>
+    <p>Use the arrow keys to move the falling piece left, right, or down.</p>
+    <p>Press the space bar to rotate the piece.</p>
+    <p>Fill complete rows to clear them and earn points.</p>
+    <p>Once the pieces stack up to the top, the game is over.</p>
+    <p>Click the "Start Game" button to begin.</p>
+  </div>
   <canvas id="tetrisCanvas" width="240" height="480"></canvas>
   <div id="score">Player: <span id="playerName"></span> | Score: <span id="currentScore"></span></div>
   <div id="gameOverContainer" style="display: none;">
