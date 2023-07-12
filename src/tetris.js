@@ -163,12 +163,12 @@ document.addEventListener('DOMContentLoaded', () => {
         grid.unshift(new Array(10).fill(0));
         score++;
 
-        if (score == 1 && playerName == 'Boyfriend!') {
+        if (score == 5 && playerName == 'Boyfriend!') {
           // Game won with my boyfriend
           clearInterval(gameLoop);
           alert('Congratulations ' + playerName + '!!!' + '\n'+
-          ' How smart you are Boyfriend!! ' + '\n' +
-          'Please claim your pirze by kissing your lovely Jamie');
+          'How smart you are Boyfriend!! ' + '\n' +
+          'Please claim your pirze by kissing your lovely Jamie ^3^');
           isGameOver = true;
         }
 
