@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function getPlayerName() {
     if (!playerName) {
       playerName = prompt('Enter your name:');
-      if (playerName == 'Justin' || playerName == 'justin'){
+      if (playerName == 'Boyfriend' || playerName == 'boyfriend'){
           playerName = 'Boyfriend!';
       }
       playerNameSpan.textContent = playerName;
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
           clearInterval(gameLoop);
           alert('Congratulations ' + playerName + '!!!' + '\n'+
           'How smart you are Boyfriend!! ' + '\n' +
-          'Please claim your pirze by kissing your lovely Jamie ^3^');
+          'Please claim your pirze by kissing your love one ^3^');
           isGameOver = true;
         }
 
